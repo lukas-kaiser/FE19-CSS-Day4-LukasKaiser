@@ -14,10 +14,22 @@ nav{
     justify-content: center;
     align-items: center;
     background-color: darkslategray;
+    transition: height .3s;
+}
+.item:hover{
+    background-color: orange;
+    height: 300%;
 }
 body{
     background-color: cadetblue;
 }
-a{
+.item a{
     color: white;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+.item:hover a{
+    color: rgb(173, 7, 46);
 }
