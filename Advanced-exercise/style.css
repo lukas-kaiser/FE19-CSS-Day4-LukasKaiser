@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr 1fr;
+    height: 800px;
+    gap: 20px;
+}
+.item{
+    border: 1px solid red;
+    height: 100%;
+}
